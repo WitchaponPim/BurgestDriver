@@ -5,28 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
   >
-    <ScrollView
-        android:layout_above="@id/bottom_nav_view"
-        android:layout_width="match_parent"
 
-        android:layout_height="match_parent">
+
         <FrameLayout
             android:id="@+id/content_main"
             android:background="@color/colorBG"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-        </FrameLayout>
-    </ScrollView>
 
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/bottom_nav_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@color/colorBG"
-        app:itemIconTint="@color/colorPrimary"
-        app:itemBackground="@color/colorBG"
-        app:itemTextColor="@color/colorPrimary"
-        app:menu="@menu/bottomtab_menu"/>
+            <TextView
+                android:gravity="center"
+                android:textColor="#ffff"
+                android:text="Hello"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+
 
 </RelativeLayout>
