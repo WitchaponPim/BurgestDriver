@@ -44,6 +44,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         user = (EditText) findViewById(R.id.user);
         pass = (EditText) findViewById(R.id.pass);
+        //say hi by poon
     }
     public void login(View view){
         String a,b;
